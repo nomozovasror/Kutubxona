@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>It.Next - IT Service Responsive Html Theme</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- site icons -->
+<link rel="icon" href="images/fevicon/fevicon.png" type="image/gif" />
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<!-- Site css -->
+<link rel="stylesheet" href="css/style.css" />
+<!-- responsive css -->
+<link rel="stylesheet" href="css/responsive.css" />
+<!-- colors css -->
+<link rel="stylesheet" href="css/colors1.css" />
+<!-- custom css -->
+<link rel="stylesheet" href="css/custom.css" />
+<!-- wow Animation css -->
+<link rel="stylesheet" href="css/animate.css" />
+<script src="https://api-maps.yandex.ru/v3/?apikey=1a465e6a-1926-4b01-bfc7-33d401172edc&lang=ru_RU"></script>
+<script>
+  initMap();
+
+  async function initMap() {
+      await ymaps3.ready;
+
+      const { YMap, YMapDefaultSchemeLayer, YPlacemark } = ymaps3;
+
+      const map = new YMap(
+          document.getElementById('map'),
+          {
+              location: {
+                  center: [67.285525, 37.234165],
+                  zoom: 17
+              }
+          }
+      )
+      map.addChild(new YMapDefaultSchemeLayer());
+  }
+</script>   
+</head>
+<body id="default_theme" class="it_service service_list">
+<!-- loader -->
+<div class="bg_load"> <img class="loader_animation" src="images/loaders/loader_1.png" alt="#" /> </div>
+<!-- end loader -->
+<!-- header -->
+<header id="default_header" class="header_style_1">
+  <!-- header bottom -->
+  <div class="header_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <!-- logo start -->
+          <!-- <div class="logo"> <a href="Index.html"><img src="images/logos/it_logo.png" alt="logo" /></a> </div> -->
+          <div style="height: 100px;"></div>
+          <!-- logo end -->
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+          <!-- menu start -->
+          <div class="menu_side">
+            <div id="navbar_menu">
+              <ul class="first-ul">
+                <li> <a class="active" href="index.html">главная</a>
+                </li>
+                <li> <a href="it_maruza_list.html">Лекции</a>
+                </li>
+                <li> <a href="#">Практические</a>
+                </li>
+                <li> <a href="#">Лабораторные</a>
+                </li>
+                <li> <a href="#">Тесты</a>
+                </li>
+                <li> <a href="#">Вопросы и задания</a>
+                </li>
+                <li> <a href="#">Фотогалерея</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- menu end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header bottom end -->
+</header>
+<!-- end header -->
+<!-- inner page banner -->
+<div id="inner_banner" class="section inner_banner_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="title-holder">
+            <div class="title-holder-cell text-left">
+              <h1 class="page-title">Ma'ruzalar ro'yxati</h1>
+              <ol class="breadcrumb">
+                <li><a href="index.html">Asosiy</a></li>
+                <li class="active">Ma'ruzalar ro'yxati</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end inner page banner -->
+<!-- section -->
+<div class="section padding_layout_1 service_list">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-02.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-03.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-04.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-05.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-06.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-07.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-08.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section -->
+
+<!-- footer -->
+<footer class="footer_style_2">
+  <div class="container-fuild">
+    <div class="row">
+      <div class="map_section">
+        <div id="map"></div>
+      </div>
+      <div class="footer_blog">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>Автор</h2>
+            </div>
+            <ul class="footer-menu">
+              <li><a href="#"><i class="fa fa-angle-right"></i> Панжиева Назокат</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Нормахматовна</a></li>
+              <li><a href="tel:+998936331199"><i class="fa fa-angle-right"></i> тел: +99893 633 11 99</a></li>
+              <li><a href="mailto:N184@mail.ru"><i class="fa fa-angle-right"></i> N184@mail.ru</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="main-heading left_text">
+              <h2>Ресурсы</h2>
+            </div>
+            <ul class="footer-menu">
+              <li><a href="it_data_recovery.html"><i class="fa fa-angle-right"></i> Лекции</a></li>
+              <li><a href="it_computer_repair.html"><i class="fa fa-angle-right"></i> Практические</a></li>
+              <li><a href="it_mobile_service.html"><i class="fa fa-angle-right"></i> Лабораторные</a></li>
+              <li><a href="it_network_solution.html"><i class="fa fa-angle-right"></i> Тесты</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Вопросы и задания</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Фотогалерея</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cprt">
+        <p>© Copyrights 2023 Design TerDU RTTM</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+<!-- js section -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- menu js -->
+<script src="js/menumaker.js"></script>
+<!-- wow animation -->
+<script src="js/wow.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+</body>
+</html>
